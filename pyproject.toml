@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "incolume-py-ft-programadoraventureiro-8573"
+version = "0.1.0"
+description = ""
+authors = ["Ricardo Brito do Nascimento <ricardo.brito@presidencia.gov.br>"]
+readme = "README.md"
+packages = [{include = "incolume"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flet = "^0.23.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
