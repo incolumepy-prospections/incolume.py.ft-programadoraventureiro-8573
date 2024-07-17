@@ -21,7 +21,7 @@ class App:
         self.page.bgcolor = ft.colors.BLACK
         self.page.title = "Sistema SV em Flet"
         self.page.theme_mode = "dark"
-        self.page.window_center()
+        self.page.window.center()
 
         self.page.theme = ft.Theme(page_transitions={
             'windows': ft.PageTransitionTheme.CUPERTINO
