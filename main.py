@@ -23,9 +23,11 @@ class App:
         self.page.theme_mode = "dark"
         self.page.window.center()
 
-        self.page.theme = ft.Theme(page_transitions={
-            'windows': ft.PageTransitionTheme.CUPERTINO
-        })
+        self.page.theme = ft.Theme(
+            page_transitions={
+                'windows': ft.PageTransitionTheme.CUPERTINO
+            }
+        )
 
         self.setup_navigation()
         self.page.update()
