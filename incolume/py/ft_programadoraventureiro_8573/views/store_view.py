@@ -1,5 +1,5 @@
 import flet as ft
-from partials.button import MyButton
+from incolume.py.ft_programadoraventureiro_8573.partials.button import MyButton
 
 class StoreView:
     def get_content(self):
